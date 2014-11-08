@@ -119,13 +119,10 @@ class ViewController: UIViewController {
 ## スッテプ２の完成イメージ
 (こちらはステップ１が前提となっています。)
 
-![swift_2.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/a06135aa-1dcb-167e-49ec-d99ed4cffbe5.gif)
+![schooSample.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/07b19c7e-c300-0350-bfc2-e0386c685b12.gif)
 
 
 ## 1・「webViewSample」を開きます。
-
-![schooSample.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/07b19c7e-c300-0350-bfc2-e0386c685b12.gif)
-
 
 
 ## ２・view Controllerを以下のように修正します。
