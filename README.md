@@ -231,8 +231,6 @@ class ViewController: UIViewController {
 
 白い画面が数秒表示されますが、慌てずに待ちましょう。
 
+![スクリーンショット 2014-11-08 12.28.44.png](https://qiita-image-store.s3.amazonaws.com/0/15812/6e2035b4-cba7-a97c-e380-19cb7ed9f293.png)
 
-![スクリーンショット 2014-08-29 0.29.06.png](https://qiita-image-store.s3.amazonaws.com/0/15812/ceb92b55-e8a6-8ad7-db87-f9f8cb26cde5.png)
 
-
-![swift_2.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/a06135aa-1dcb-167e-49ec-d99ed4cffbe5.gif)
