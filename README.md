@@ -51,16 +51,19 @@ class ViewController: UIViewController {
 
   @IBOutlet var webView: UIWebView!
 
+  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
   //表示したいURLを設定(初期化)
   var targetURL = "http://rakutenqute.herokuapp.com/"
-
+  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
 
-    // webviewの表示を行うメソッドを呼び出す
+    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+    // webViewを表示するためのメソッド呼び出し
     loadAddressURL()
+    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
 
   }
 
@@ -69,9 +72,10 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
   func loadAddressURL(){
 
-    // 初期化したURLを読み込む
+    // 初期化済みのURLを読み込む
     let requestURL = NSURL(string: targetURL)
 
     // 読み込んだURLの実行結果を取得する
@@ -82,6 +86,7 @@ class ViewController: UIViewController {
     webView.scalesPageToFit = true
 
   }
+  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
 
 }
 
@@ -105,10 +110,3 @@ class ViewController: UIViewController {
 
 [Rakuten Qute!](http://rakutenqute.herokuapp.com/)
 <br>
-### ご質問
-なぜかScales Page To Fitをチェックしてもサイズが調整されません。。。
-swiftでwebview内のページを調整する方法をご存知の方おりましたら
-コメントのほど、宜しくお願いします :smile:
-
-### 追記
-画像を更新しました！
