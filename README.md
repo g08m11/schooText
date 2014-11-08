@@ -35,6 +35,7 @@
 ![スクリーンショット 2014-08-19 0.11.37.png](https://qiita-image-store.s3.amazonaws.com/0/15812/7e4ea95b-bb50-5f6e-dcc5-94d070d4714a.png)
 
 ## ４・webViewからCtrlを押しっぱなしでViewController.swiftにドラッグして、アウトレットを追加します。
+ここではwebViewという名前で設定しています。
 
 ![スクリーンショット 2014-08-19 0.12.29.png](https://qiita-image-store.s3.amazonaws.com/0/15812/f5c3cbbc-9258-8192-f351-01eba9ded2fe.png)
 
