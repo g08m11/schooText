@@ -1,4 +1,4 @@
-## スッテプ１の完成イメージ
+## STEP１の完成イメージ
 
 ![swift_2.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/a06135aa-1dcb-167e-49ec-d99ed4cffbe5.gif)
 
@@ -116,7 +116,7 @@ class ViewController: UIViewController {
 <br>
 <br>
 
-## スッテプ２の完成イメージ
+## STEP２の完成イメージ
 (こちらはステップ１が前提となっています。)
 
 ![schooSample.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/07b19c7e-c300-0350-bfc2-e0386c685b12.gif)
