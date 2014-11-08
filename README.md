@@ -101,7 +101,7 @@ class ViewController: UIViewController {
 
 <br>
 ### 備考
-表示しているURLは[Rakuten Qute!](http://rakutenqute.me/)というwebアプリです。
+表示しているURLは[Rakuten Qute!](http://rakutenqute.herokuapp.com/)というwebアプリです。
 
 [Rakuten Qute!](http://rakutenqute.herokuapp.com/)
 <br>
