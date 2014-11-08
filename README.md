@@ -123,7 +123,7 @@ class ViewController: UIViewController {
 ![schooSample.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/07b19c7e-c300-0350-bfc2-e0386c685b12.gif)
 
 
-## 1・「webViewSample」を開きます。
+## 1・「webViewSample」プロジェクトを開きます。
 
 
 ## ２・view Controllerを以下のように修正します。
