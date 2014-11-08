@@ -227,9 +227,8 @@ class ViewController: UIViewController {
 
 ```
 
-## ６・指定したURLが表示されれば成功
-
-白い画面が数秒表示されますが、慌てずに待ちましょう。
+## ３・twitterのボタンが表示されれば成功
+動作にも問題が無いかtwitterボタンを押してみましょう。
 
 ![スクリーンショット 2014-11-08 12.28.44.png](https://qiita-image-store.s3.amazonaws.com/0/15812/6e2035b4-cba7-a97c-e380-19cb7ed9f293.png)
 
