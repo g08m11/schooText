@@ -1,3 +1,4 @@
+
 ## STEP１の完成イメージ
 
 ![swift_2.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/a06135aa-1dcb-167e-49ec-d99ed4cffbe5.gif)
@@ -97,8 +98,22 @@ class ViewController: UIViewController {
 }
 
 ```
+## ６・バグがないかチェックしましょう。
+commandキー + Bを押してみましょう。
+バグが無ければ以下の画像が表示されます。
 
-## ６・指定したURLが表示されれば成功
+![スクリーンショット 2014-11-11 21.09.17.png](https://qiita-image-store.s3.amazonaws.com/0/15812/05c948c7-c658-d597-9999-137416a29123.png)
+
+ただ、エラーがあった場合は以下の画像が表示されます。
+
+![スクリーンショット 2014-11-11 21.12.46.png](https://qiita-image-store.s3.amazonaws.com/0/15812/97504c02-255e-020e-2320-597de62f6e66.png)
+
+バグが無い状態を確認した後、
+commandキー + Rを押しみましょう。
+自動的にiPhoneシュミレーターが起動されます。
+
+
+## ７・指定したURLが表示されれば成功
 
 白い画面が数秒表示されますが、慌てずに待ちましょう。
 
