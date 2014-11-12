@@ -66,7 +66,7 @@
 ![スクリーンショット 2014-10-29 20.53.25.png](https://qiita-image-store.s3.amazonaws.com/0/15812/d32eacb4-f11e-1a29-5941-db4a34c58a34.png)
 
 
-## ３・貼付けたwebviewをドラッグしてview Controllerにくっつけ、delgateを追加します。
+## ３・貼付けたwebviewに対してcontrolキー ＋ ジェスチャーを使い、delgateを追加します。
 
 ![スクリーンショット 2014-08-19 0.11.37.png](https://qiita-image-store.s3.amazonaws.com/0/15812/7e4ea95b-bb50-5f6e-dcc5-94d070d4714a.png)
 
