@@ -26,11 +26,13 @@
 
 
 ### 詳細は以下のリンクで確認しましょう。
+
 (commandキーを押しながらクリックすると別タブで起動することが出来ます。)
+
+[Xcodeの使い方](http://nanananande.helpfulness.jp/post-1219/)
 
 <br>
 
-[Xcodeの使い方](http://nanananande.helpfulness.jp/post-1219/)
 
 ## STEP１の完成イメージ
 
