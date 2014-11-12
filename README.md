@@ -17,6 +17,14 @@
 12.ライブラリペイン<br>
 <br>
 
+
+<b>イメージ図</b>
+![20130225020153.png](https://qiita-image-store.s3.amazonaws.com/0/15812/6b7320f9-beb4-f161-e642-e5c40ebd6bcf.png)
+
+この中でも主にFileタブ、Productタブを今回利用します。
+
+
+
 ### 詳細は以下のリンクで確認しましょう。
 (commandキーを押しながらクリックすると別タブで起動することが出来ます。)
 [Xcodeの使い方](http://nanananande.helpfulness.jp/post-1219/)
