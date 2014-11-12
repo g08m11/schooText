@@ -52,7 +52,9 @@
 ![スクリーンショット 2014-08-19 0.10.16.png](https://qiita-image-store.s3.amazonaws.com/0/15812/d747d6bc-03d0-6d6b-d14c-54b803bf50d8.png)
 
 
-## ２・Main.storyboardを選択する。そしてユーティリティエリアからwebviewを選び、viewControllerへwebviewを貼付ける。そしてauto layautoを設定する。
+## ２・Main.storyboardを選択します。
+そしてユーティリティエリアからwebviewを選び、viewControllerへwebviewを貼付けます。
+最後にauto layautoを設定します。
 
 ![スクリーンショット 2014-08-19 0.11.03.png](https://qiita-image-store.s3.amazonaws.com/0/15812/a6e585a1-2c7e-cc9f-4fe7-fdce62414ada.png)
 
