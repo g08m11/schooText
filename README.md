@@ -1,5 +1,5 @@
 ## Xcodeの各部名称
-
+<b>イメージ図</b>
 ![20130225020153.png](https://qiita-image-store.s3.amazonaws.com/0/15812/6b7320f9-beb4-f161-e642-e5c40ebd6bcf.png)
 
 
