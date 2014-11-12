@@ -19,7 +19,7 @@
 
 
 <b>イメージ図</b>
-![20130225020153.png](https://qiita-image-store.s3.amazonaws.com/0/15812/6b7320f9-beb4-f161-e642-e5c40ebd6bcf.png)
+![スクリーンショット 2014-11-12 17.24.59.png](https://qiita-image-store.s3.amazonaws.com/0/15812/2e036bae-ee3b-a416-f8c3-0a25fc3a7f87.png)
 
 この中でも主にFileタブ、Productタブを今回利用します。
 
