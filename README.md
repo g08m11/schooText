@@ -1,3 +1,39 @@
+## Xcodeの各部名称
+<b>イメージ図</b>
+![20130225020153.png](https://qiita-image-store.s3.amazonaws.com/0/15812/6b7320f9-beb4-f161-e642-e5c40ebd6bcf.png)
+
+
+1.ツールバー<br>
+2.ナビゲーションエリア<br>
+3.ジャンプバー<br>
+4.インスペクタセレクトバー<br>
+5.ナビゲーションエリア<br>
+6.エディタエリア<br>
+7.インスペクタペイン<br>
+8.フィルターバー<br>
+9.デバッグバー<br>
+10.ライブラリセレクトバー<br>
+11.デバッグエリア<br>
+12.ライブラリペイン<br>
+<br>
+
+
+<b>イメージ図</b>
+![スクリーンショット 2014-11-12 17.24.59.png](https://qiita-image-store.s3.amazonaws.com/0/15812/2e036bae-ee3b-a416-f8c3-0a25fc3a7f87.png)
+
+この中でも主にFileタブ、Productタブを今回利用します。
+
+
+
+### 詳細は以下のリンクで確認しましょう。
+
+(commandキーを押しながらクリックすると別タブで起動することが出来ます。)
+
+[Xcodeの使い方](http://nanananande.helpfulness.jp/post-1219/)
+
+<br>
+
+
 ## STEP１の完成イメージ
 
 ![swift_2.gif](https://qiita-image-store.s3.amazonaws.com/0/15812/a06135aa-1dcb-167e-49ec-d99ed4cffbe5.gif)
@@ -16,7 +52,7 @@
 ![スクリーンショット 2014-08-19 0.10.16.png](https://qiita-image-store.s3.amazonaws.com/0/15812/d747d6bc-03d0-6d6b-d14c-54b803bf50d8.png)
 
 
-## ２・Main.storyboardを選択する。そしてユーティリティエリアからwebviewを選び、viewControllerへwebviewを貼付ける。そしてauto layautoを設定する。
+## ２・Main.storyboardを選択します。そしてユーティリティエリアからwebviewを選び、viewControllerへwebviewを貼付けます。最後にauto layautoを設定します。
 
 ![スクリーンショット 2014-08-19 0.11.03.png](https://qiita-image-store.s3.amazonaws.com/0/15812/a6e585a1-2c7e-cc9f-4fe7-fdce62414ada.png)
 
@@ -30,7 +66,7 @@
 ![スクリーンショット 2014-10-29 20.53.25.png](https://qiita-image-store.s3.amazonaws.com/0/15812/d32eacb4-f11e-1a29-5941-db4a34c58a34.png)
 
 
-## ３・貼付けたwebviewをドラッグしてview Controllerにくっつけ、delgateを追加します。
+## ３・貼付けたwebviewに対してcontrolキー ＋ ジェスチャーを使い、delgateを追加します。
 
 ![スクリーンショット 2014-08-19 0.11.37.png](https://qiita-image-store.s3.amazonaws.com/0/15812/7e4ea95b-bb50-5f6e-dcc5-94d070d4714a.png)
 
@@ -97,8 +133,22 @@ class ViewController: UIViewController {
 }
 
 ```
+## ６・バグがないかチェックしましょう。
+commandキー + Bを押してみましょう。
+バグが無ければ以下の画像が表示されます。
 
-## ６・指定したURLが表示されれば成功
+![スクリーンショット 2014-11-11 21.09.17.png](https://qiita-image-store.s3.amazonaws.com/0/15812/05c948c7-c658-d597-9999-137416a29123.png)
+
+ただ、エラーがあった場合は以下の画像が表示されます。
+
+![スクリーンショット 2014-11-11 21.12.46.png](https://qiita-image-store.s3.amazonaws.com/0/15812/97504c02-255e-020e-2320-597de62f6e66.png)
+
+バグが無い状態を確認した後、
+commandキー + Rを押しみましょう。
+自動的にiPhoneシュミレーターが起動されます。
+
+
+## ７・指定したURLが表示されれば成功
 
 白い画面が数秒表示されますが、慌てずに待ちましょう。
 
