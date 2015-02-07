@@ -269,7 +269,7 @@ class ViewController: UIViewController {
   // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
   func onPostToTwitter(sender : AnyObject) {
     myComposeView = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-    myComposeView.setInitialText("Schooの授業でアプリ作ったよ！  #SwiftGirls")
+    myComposeView.setInitialText("Swifr講座でアプリ作ったよ！  ")
     self.presentViewController(myComposeView, animated: true, completion: nil)
   }
   // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
