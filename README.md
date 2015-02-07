@@ -57,19 +57,19 @@ class ViewController: UIViewController {
 
   @IBOutlet var webView: UIWebView!
 
-  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
   //表示したいURLを設定(初期化)
   var targetURL = "http://rakutenqute.herokuapp.com/"
-  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
 
-    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
     // webViewを表示するためのメソッド呼び出し
     loadAddressURL()
-    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
   }
 
@@ -78,7 +78,7 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
   func loadAddressURL(){
 
     // 初期化済みのURLを読み込む
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
     webView.scalesPageToFit = true
 
   }
-  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
 }
 
@@ -138,10 +138,10 @@ class ViewController: UIViewController {
 //
 
 import UIKit
-// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
 // twitterなどのSocialへ投稿する際に必要な機能を外部から読み込むための初期化
 import Social
-// ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+// ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
 
 class ViewController: UIViewController {
@@ -151,12 +151,12 @@ class ViewController: UIViewController {
   //表示したいURLを設定(初期化)
   var targetURL = "http://rakutenqute.herokuapp.com/"
 
-  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
   // twitter投稿画面を生成するための初期化
   var myComposeView : SLComposeViewController!
   // twitter用のボタンを生成するための初期化
   var myTwitterButton: UIButton!
-  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -165,17 +165,17 @@ class ViewController: UIViewController {
     // webViewを表示するためのメソッド呼び出し
     loadAddressURL()
 
-    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
     // twitterに似た色合いをコードで生成するための設定。色味のみの設定
     let hex: Int = 0x55ACEE
     let red = Double((hex & 0xFF0000) >> 16) / 255.0
     let green = Double((hex & 0xFF00) >> 8) / 255.0
     let blue = Double((hex & 0xFF)) / 255.0
     var myColor: UIColor = UIColor( red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: CGFloat(1.0))
-    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
 
-    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
     // twitter用のボタンを設定。ボタンを押された後にtwitter投稿用のメソッド呼び出しまで設定
     myTwitterButton = UIButton()
     myTwitterButton.frame = CGRectMake(0,0,100,100)
@@ -188,12 +188,12 @@ class ViewController: UIViewController {
     myTwitterButton.layer.position = CGPoint(x: self.view.frame.width - 55, y:self.view.frame.height - 115)
     myTwitterButton.tag = 1
     myTwitterButton.addTarget(self, action: "onPostToTwitter:", forControlEvents: .TouchUpInside)
-    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
-    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+    // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
     // twitter用のボタンを画面に表示させるための設定
     self.view.addSubview(myTwitterButton)
-    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+    // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
   }
 
@@ -216,13 +216,13 @@ class ViewController: UIViewController {
 
   }
 
-  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分をコピペ
+  // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
   func onPostToTwitter(sender : AnyObject) {
     myComposeView = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
     myComposeView.setInitialText("Schooの授業でアプリ作ったよ！  #SwiftGirls")
     self.presentViewController(myComposeView, animated: true, completion: nil)
   }
-  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分をコピペ
+  // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
 
 }
 
