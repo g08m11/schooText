@@ -144,7 +144,7 @@ class ViewController: UIViewController {
 ![スクリーンショット 2014-11-11 21.12.46.png](https://qiita-image-store.s3.amazonaws.com/0/15812/97504c02-255e-020e-2320-597de62f6e66.png)
 
 バグが無い状態を確認した後、
-commandキー + Rを押しみましょう。
+「Product」タブを選択して、「Run」を押してみましょう。
 自動的にiPhoneシュミレーターが起動されます。
 
 
@@ -269,7 +269,7 @@ class ViewController: UIViewController {
   // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ この部分を写経
   func onPostToTwitter(sender : AnyObject) {
     myComposeView = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-    myComposeView.setInitialText("Swifr講座でアプリ作ったよ！  ")
+    myComposeView.setInitialText("Swift講座でアプリ作ったよ！  ")
     self.presentViewController(myComposeView, animated: true, completion: nil)
   }
   // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑　この部分を写経
